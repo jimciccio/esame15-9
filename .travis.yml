@@ -1,0 +1,12 @@
+language: java
+sudo: false
+
+addons:
+ sonarcloud:
+  organization: "jimciccio"
+  token:
+   secure: "a7b9250649b9b91dbedc8af52426428117b34daa"
+script: 
+-mvn clean verify
+- sonar-scanner
+
