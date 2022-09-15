@@ -10,20 +10,20 @@ import java.io.IOException;
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        int j = 467;
-
-        if(j % 2 == 0){
-            System.out.println(true);
-        }else{
-            System.out.println(false);
-        }
-
-
-
-
+        check();
     }
 
     public static void main(String[] args) {
         launch();
+    }
+
+    public boolean check(){
+        int j = 467;
+
+        if(j % 2 == 0){
+            return true;
+        }else{
+            return false;
+        }
     }
 }
