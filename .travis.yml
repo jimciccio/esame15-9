@@ -5,7 +5,7 @@ addons:
  sonarcloud:
   organization: "jimciccio"
   token:
-   secure: "ba46458ea6f0599f8e7cfcff4bcae014252ca531"
+   secure: "78658778a01c70fb61830dd26446a7f2474b6d4e"
 script: 
 -mvn clean verify
 - sonar-scanner
